@@ -1,0 +1,23 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="All rights reserved"
+issueTrackerURL="https://github.com/franxie95/resocraft/issues"
+[[mods]]
+modId="resocraft"
+version="${file.jarVersion}"
+displayName="ResoCraft"
+logoFile="log0o.png"
+authors="franxie95"
+description='''resurection of a bunch of old mods'''
+[[dependencies.resocraft]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.resocraft]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
